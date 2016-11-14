@@ -1,7 +1,7 @@
 .header{
-  border:inline;
+  border:outset;
   background-color:#ffffb3;
   font-family:Arial;
-  padding-left:450px;
+  padding-left:400px;
   border-radius:10px;
 }
