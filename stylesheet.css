@@ -28,10 +28,6 @@ div {
   width: 100%;
 }
 
-img {
-  border: 2px solid black;
-}
-
 .container {
   display: flex;
 }
