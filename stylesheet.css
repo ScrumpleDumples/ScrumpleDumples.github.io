@@ -1,93 +1,98 @@
-html, body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
-}
-
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
-  background-position: center top;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
   background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
   margin: 0;
+  color: #fff;
 }
 
-a {
-  color: #204156;
-  text-decoration: none;
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
 }
 
-.page-title {
-  text-align: center;
-  font-weight: 100;
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
 }
 
-.page-description {
-  border: 1px solid #000;
-  margin: 2px;
-  text-align: center;
-  padding: 30px;
+.col-md-6 {
+  margin: 0 0 30px;
 }
 
-.gallery {
-  margin-top: 20px;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
 }
 
-.gallery-item {
-  margin: 20px;
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
 }
 
-.gallery-item .thumbnail {
-  border: 5px solid #fff;
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
 }
 
-
-nav {
-  background-color: #FFF;
+footer {
+  font-size: 12px;
+  padding: 20px 0;
 }
 
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
 }
 
-nav ul {
-  display: inline;
+footer ul {
+  list-style: none;
 }
 
-.contact-btn {
-  float: right;
+footer li img {
+  width: 32px;
+  height: 32px;
 }
-
-.contact-btn a {
-  cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position:relative;
-
-}
-
-.contact-btn a:active {
-  top:2px;
-
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
-
-
-
-
-
