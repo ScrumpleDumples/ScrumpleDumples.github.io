@@ -81,6 +81,14 @@ nav a {
   text-decoration: none;
 }
 
+.blue{
+  background-color:blue;
+  border:black solid 2px;
+  width:200px;
+  height:200px;
+  border-radius:100%;
+}
+
 
 
 
